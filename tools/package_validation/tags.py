@@ -142,8 +142,7 @@ def string_is_valid_startmap(string: str) -> bool:
 
 
 def string_is_valid_theme(string: str) -> bool:
-    return string_is_printable_lowercase_ascii_characters_or_space(string)
-    # TODO nope, ö too... how to allow any umlauts and accents?
+    return string_is_printable_lowercase_ascii_characters(string)
 
 
 # TODOs:
